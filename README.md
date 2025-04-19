@@ -1,7 +1,9 @@
-#ToDo List
+# ToDo List
+
 A simple and minimal To-Do List web application built using Flask (Python) for the backend and HTML/CSS for the frontend.
 
 # Features:
+
  1)- Add tasks
  2)- Delete tasks
  3)- Task data handled with server-side logic using Flask
