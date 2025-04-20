@@ -11,7 +11,7 @@ class BasicTestCase(unittest.TestCase):
     def test_home_page(self):
         response = self.app.get('/')  # Making a GET request to the home page
         self.assertEqual(response.status_code, 200)  # Assert the status code is 200 (OK)
-        self.assertIn(b"Welcome to the To-Do List App!", response.data)  # Check if the text is in the response
+        self.assertIn(b"My To-Do List", response.data)  # Check if the text is in the response
 
     # Test case for adding a task
     def test_add_task(self):
