@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/devesht-ML/To_Do_List.git'
+                git branch:'main',url:'https://github.com/devesht-ML/To_Do_List.git'
             }
         }
 
