@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
-            steps {
-                git branch:'main',url:'https://github.com/devesht-ML/To_Do_List.git'
-            }
-        }
-
         stage('Set up Python') {
             steps {
                 bat 'python -m venv venv'
